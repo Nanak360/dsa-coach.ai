@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+pydantic
+
+# For LLM and AI Integration
+openai
+langchain
+
+# Embeddings support
+pinecone-client
+
+# Async HTTP + environment variables
+httpx
+python-dotenv
+
+# Background tasks / queues (optional)
+celery
+
+# Text-to-Speech (optional)
+elevenlabs
