@@ -57,7 +57,7 @@ coverage.xml
 
 # dotenv
 .env
-.env.*
+.env.example
 
 # VS Code
 .vscode/
@@ -73,3 +73,7 @@ coverage.xml
 
 # Mac OS files
 .DS_Store
+__pycache__/
+*.py[cod]
+*.cpython-*.pyc
+local.ipynb
