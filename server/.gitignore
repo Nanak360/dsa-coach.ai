@@ -1,1 +1,75 @@
-# .gitignore - auto-generated
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Pyre type checker
+.pyre/
+
+# pytype static type checker
+.pytype/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# dotenv
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Logs
+*.log
+
+# SQLite database files
+*.sqlite3
+
+# Mac OS files
+.DS_Store
