@@ -1,3 +1,6 @@
+# .gitignore file for DSA Coach Project
+# This file specifies intentionally untracked files to ignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -55,7 +58,7 @@ coverage.xml
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# dotenv
+# Environment variables
 .env
 .env.example
 
@@ -70,10 +73,13 @@ coverage.xml
 
 # SQLite database files
 *.sqlite3
+*.sqlite
 
 # Mac OS files
 .DS_Store
-__pycache__/
-*.py[cod]
-*.cpython-*.pyc
+
+# Editor swap files
+*~
+*.swp
+
 local.ipynb
